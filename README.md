@@ -1,7 +1,7 @@
 # minhas-criacoes
 https://lh3.googleusercontent.com/a/ACg8ocLwSwrH9f9iID83NJ3bX0HMxFZ2GkFJkTC1Vl2z9_FI7Ni1hjHw=s360-c-no
 
-
+item_1
 ody{
     background-image: url(https://www.thrustmaster.com/wp-content/uploads/2025/07/1920x1080_hornets_sting_logo_eng_2d22ae28ec0480fd3f856696350210f2.jpg);
     background-repeat: repeat-y;
@@ -94,3 +94,88 @@ a.a1:hover{
     font-size: 30px;
     font-family: Arial, Helvetica, sans-serif;
  }
+item_2
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000;
+    color: #fff;
+    overflow-x: hidden;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.video-container {
+    position: relative;
+    width: 100%;
+    max-width: 500px;
+    margin: 10px 0;
+}
+
+.video {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    background-color: #000;
+}
+
+.overlay {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    right: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.user-info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.user-avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.username {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.action-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+button {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+button:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+button:active {
+    background-color: rgba(0, 0, 0, 0.9);
